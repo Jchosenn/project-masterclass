@@ -171,6 +171,9 @@
 
 @media (width > 768px){
 
+    html{
+        scroll-behavior: smooth;
+    }
     .first-ul{
         display: block;
         display: flex;
@@ -195,7 +198,7 @@
     .third__section{
     width: var(--width-000);
     }
-    .third__section h2{
+    .third__section h2, .fourth__section h2{
         font-size: 2.2rem;
     }
 
